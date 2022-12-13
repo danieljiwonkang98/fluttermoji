@@ -3,23 +3,20 @@ import 'package:flutter/foundation.dart';
 /// Maps attribute keys to the attribute value list
 final Map<String, FluttermojiPropertyItem> fluttermojiProperties = {
   "style": FluttermojiPropertyItem(title: "Style", property: FluttermojiStyle),
-  "topType": FluttermojiPropertyItem(title: "Hair", property: TopType),
+  "topType": FluttermojiPropertyItem(title: "머리", property: TopType),
   "accessoriesType":
-      FluttermojiPropertyItem(title: "Accessory", property: AccessoriesType),
-  "hairColor":
-      FluttermojiPropertyItem(title: "Hair\nColor", property: HairColor),
+      FluttermojiPropertyItem(title: "액세서리", property: AccessoriesType),
+  "hairColor": FluttermojiPropertyItem(title: "머리색", property: HairColor),
   "facialHairType":
-      FluttermojiPropertyItem(title: "Facial\nHair", property: FacialHairType),
-  "facialHairColor": FluttermojiPropertyItem(
-      title: "F-Hair\nColor", property: FacialHairColor),
-  "clotheType": FluttermojiPropertyItem(title: "Outfit", property: ClotheType),
-  "clotheColor":
-      FluttermojiPropertyItem(title: "Outfit\nColor", property: ClotheColor),
-  "eyeType": FluttermojiPropertyItem(title: "Eye", property: EyeType),
-  "eyebrowType":
-      FluttermojiPropertyItem(title: "Eyebrow", property: EyebrowType),
-  "mouthType": FluttermojiPropertyItem(title: "Mouth", property: MouthType),
-  "skinColor": FluttermojiPropertyItem(title: "Skin", property: SkinColor),
+      FluttermojiPropertyItem(title: "턱수염", property: FacialHairType),
+  "facialHairColor":
+      FluttermojiPropertyItem(title: "턱수염색", property: FacialHairColor),
+  "clotheType": FluttermojiPropertyItem(title: "의상", property: ClotheType),
+  "clotheColor": FluttermojiPropertyItem(title: "의상색", property: ClotheColor),
+  "eyeType": FluttermojiPropertyItem(title: "눈", property: EyeType),
+  "eyebrowType": FluttermojiPropertyItem(title: "눈썹", property: EyebrowType),
+  "mouthType": FluttermojiPropertyItem(title: "입", property: MouthType),
+  "skinColor": FluttermojiPropertyItem(title: "피부", property: SkinColor),
 };
 
 /// Models the metadata needed for rendering widgets in the UI
